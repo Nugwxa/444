@@ -14,7 +14,7 @@ public class DigitSpanScore : MonoBehaviour
         BestLevelText.text = "Best Level: " + PlayerPrefs.GetInt("Digit1BestLevel", 1).ToString(); 
     }
 
-    public void UpdateScore()
+    public void UpdateScore() //Upadtes the users level
     {
         GLevel = GLevel + 1;
         LevelText.text = GLevel.ToString(); //Update level text
