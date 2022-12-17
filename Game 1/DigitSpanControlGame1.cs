@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class DigitSpanControlGame1 : MonoBehaviour
 {
     public GameObject GameOverUI; //GameOver UI
-    public GameObject GameCompleteUI; //GameOver UI
+    public GameObject GameCompleteUI; //Level Cleared UI
     public GameObject EarSymbol; //Ear symbol
 
     //attempts
@@ -53,9 +53,9 @@ public class DigitSpanControlGame1 : MonoBehaviour
     public AudioClip Level_15_Clip;
 
 
-    public float volume = 3.5f;
+    public float volume = 3.5f; // feedback sounds volume
     bool GameIsOver;
-    bool GameC;
+    bool GameC; // Game controller for after the game ends
 
 
 
